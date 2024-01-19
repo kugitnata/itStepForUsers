@@ -2,7 +2,6 @@
   margin: 0 auto;
   width: 1200px;
   height: 800px;
-  background-image: url("/images/room.jpg");
 }
 
 .header-info {
@@ -505,13 +504,11 @@ li::before {
 }
 
 #section_img-horison {
-  background-image: url("images/knife.png");
   width: 400px;
   height: 280px;
 }
 
 #section_img-wertical {
-  background-image: url("images/smile.png");
   width: 320px;
   height: 400px;
 }
