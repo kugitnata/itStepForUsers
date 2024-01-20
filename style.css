@@ -1,7 +1,7 @@
 .main-content {
   margin: 0 auto;
   width: 1200px;
-  height: 500px;
+  height: 600px;
   background-color: #0a0a0a;
   color: rgb(37, 201, 70);
   padding: 20px;
@@ -22,6 +22,7 @@
   font-weight: 400;
   line-height: 22.714px;
 }
+
 .header-block_content {
   margin: 0 auto;
   margin-top: 45px;
@@ -140,12 +141,10 @@
 
 .btn-block button {
   background: rgb(213, 118, 50);
-  background: linear-gradient(
-    90deg,
-    rgba(213, 118, 50, 0.927608543417367) 16%,
-    rgba(235, 226, 237, 1) 52%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(213, 118, 50, 0.927608543417367) 16%,
+      rgba(235, 226, 237, 1) 52%,
+      rgba(252, 176, 69, 1) 100%);
   margin: 10px;
   padding: 5px;
   color: rgb(14, 28, 68);
@@ -165,18 +164,18 @@
   0% {
     transform: translateY(0);
     background: rgb(213, 118, 50);
-    background: linear-gradient(
-      90deg,
-      rgba(213, 118, 50, 0.927608543417367) 16%,
-      rgba(235, 226, 237, 1) 52%,
-      rgba(252, 176, 69, 1) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(213, 118, 50, 0.927608543417367) 16%,
+        rgba(235, 226, 237, 1) 52%,
+        rgba(252, 176, 69, 1) 100%);
   }
+
   50% {
     transform: translateY(-25px);
     background: rgb(14, 28, 68);
     color: white;
   }
+
   100% {
     transform: translateY(0);
     background: #e43b25;
@@ -191,18 +190,18 @@
   0% {
     transform: translateX(0);
     background: rgb(213, 118, 50);
-    background: linear-gradient(
-      90deg,
-      rgba(213, 118, 50, 0.927608543417367) 16%,
-      rgba(235, 226, 237, 1) 52%,
-      rgba(252, 176, 69, 1) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(213, 118, 50, 0.927608543417367) 16%,
+        rgba(235, 226, 237, 1) 52%,
+        rgba(252, 176, 69, 1) 100%);
   }
+
   50% {
     transform: translateX(125px);
     background: rgb(14, 28, 68);
     color: white;
   }
+
   100% {
     transform: translateX(0);
     background: #e43b25;
@@ -217,23 +216,19 @@
   0% {
     transform: rotate(5deg);
     background: rgb(213, 118, 50);
-    background: linear-gradient(
-      90deg,
-      rgba(213, 118, 50, 0.927608543417367) 16%,
-      rgba(235, 226, 237, 1) 52%,
-      rgba(252, 176, 69, 1) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(213, 118, 50, 0.927608543417367) 16%,
+        rgba(235, 226, 237, 1) 52%,
+        rgba(252, 176, 69, 1) 100%);
   }
 
   25% {
     transform: rotate(45deg);
     background: rgb(213, 118, 50);
-    background: linear-gradient(
-      90deg,
-      rgba(213, 118, 50, 0.927608543417367) 16%,
-      rgba(235, 226, 237, 1) 52%,
-      rgba(252, 176, 69, 1) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(213, 118, 50, 0.927608543417367) 16%,
+        rgba(235, 226, 237, 1) 52%,
+        rgba(252, 176, 69, 1) 100%);
   }
 
   50% {
@@ -259,6 +254,7 @@
   height: 120px;
   width: 100%;
 }
+
 .general-profile-header-icon {
   padding: 10px 80px;
   display: flex;
@@ -269,14 +265,17 @@
   width: 40px;
   height: 40px;
 }
+
 .general-profile-header-icon-right svg {
   width: 40px;
   height: 40px;
 }
+
 .general-profile-header-navigate {
   position: absolute;
   left: 10px;
 }
+
 .general-profile-header-navigate a {
   color: white;
 }
@@ -287,6 +286,7 @@
   width: 80%;
   height: 200px;
 }
+
 .main-content-profile input {
   width: 80%;
   padding: 10px;
@@ -327,9 +327,11 @@
   0% {
     transform: translateX(0);
   }
+
   50% {
     transform: translateY(-125px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -362,7 +364,7 @@ li::before {
   text-decoration: none;
 }
 
-.checkbox:checked + .todoText {
+.checkbox:checked+.todoText {
   text-decoration: line-through;
 }
 
@@ -501,7 +503,8 @@ li::before {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14.4px; /* 120% */
+  line-height: 14.4px;
+  /* 120% */
   letter-spacing: 0.4px;
   text-transform: uppercase;
 }
@@ -522,7 +525,8 @@ li::before {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px; /* 150% */
+  line-height: 27px;
+  /* 150% */
   height: 85px;
   width: 453px;
 
@@ -593,12 +597,10 @@ form {
 
 form label {
   color: rgb(91 226 251);
-  color: linear-gradient(
-    90deg,
-    rgba(50, 124, 213, 0.927608543417367) 16%,
-    rgba(235, 226, 237, 1) 57%,
-    rgba(252, 69, 251, 1) 100%
-  );
+  color: linear-gradient(90deg,
+      rgba(50, 124, 213, 0.927608543417367) 16%,
+      rgba(235, 226, 237, 1) 57%,
+      rgba(252, 69, 251, 1) 100%);
 }
 
 form svg {
@@ -621,8 +623,7 @@ section input {
   width: 95% !important;
 }
 
-#form-content {
-}
+#form-content {}
 
 #info {
   display: grid;
@@ -639,10 +640,12 @@ section input {
   width: 50%;
   margin: 0 auto;
 }
+
 .btn-custom-form {
   display: flex;
   justify-content: center;
 }
+
 #reset-fields {
   background-color: #e41616;
   border: none;
