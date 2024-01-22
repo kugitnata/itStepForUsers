@@ -594,6 +594,11 @@ form {
   font-family: cursive;
   opacity: 0.85;
 }
+.bloc-content{
+  background-color: #9198e5;
+  height: 375px;
+  margin-top: 30px;
+}
 
 form label {
   color: rgb(91 226 251);
