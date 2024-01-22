@@ -600,8 +600,14 @@ form {
   margin-top: 300px;
   text-align: center;
   color: whitesmoke;
+  }
+span{
+  font-size:larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
-
+}
+pre{
+  color: dimgrey;
 }
 
 form label {
